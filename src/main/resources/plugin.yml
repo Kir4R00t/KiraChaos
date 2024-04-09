@@ -1,0 +1,4 @@
+name: KiraChaos
+version: '${project.version}'
+main: me.kirar00t.kirachaos.KiraChaos
+api-version: '1.20'
