@@ -15,7 +15,7 @@ public class villagerDeath implements Listener {
     public void onVillagerDeath(EntityDeathEvent event) {
         if (event.getEntityType() == EntityType.VILLAGER) {
             final Location deathLocation = event.getEntity().getLocation();
-            Location spawnLocation = deathLocation.clone().add(0, 0, 0); // Spawn on top
+            Location spawnLocation = deathLocation.clone().add(0, 0, 0);
             Creeper creeper = (Creeper) deathLocation.getWorld().spawnEntity(spawnLocation, EntityType.CREEPER);
 
             // this is some serious trolling

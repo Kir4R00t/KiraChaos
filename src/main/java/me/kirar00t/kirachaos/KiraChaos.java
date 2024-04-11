@@ -1,9 +1,12 @@
 package me.kirar00t.kirachaos;
 
+// Inside imports
 import me.kirar00t.kirachaos.listeners.cowBreeding;
 import me.kirar00t.kirachaos.listeners.explodingSnowballs;
 import me.kirar00t.kirachaos.listeners.suspStew;
 import me.kirar00t.kirachaos.listeners.villagerDeath;
+
+// Bukkit imports
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class KiraChaos extends JavaPlugin {
