@@ -7,4 +7,4 @@
 - Snowballs will explode on impact
 - When breeding cows you may encounter a silly surprise
 - When a villager dies he spawns a charged creeper with speed 2
-- Upon consumption of a suspicious stew day becomes night
+- Upon consumption of a suspicious stew you are being teleported 200m into the sky

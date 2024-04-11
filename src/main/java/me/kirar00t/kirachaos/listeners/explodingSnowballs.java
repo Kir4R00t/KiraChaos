@@ -18,33 +18,3 @@ public class explodingSnowballs implements Listener {
         }
     }
 }
-
-/*
-
-
-
-
-    @EventHandler
-    public void onBlockBreak(BlockBreakEvent event) {
-        Player player = event.getPlayer();
-        if (event.getBlock().getType() == Material.OXEYE_DAISY) {
-            regrowFlower(event.getBlock().getLocation());
-            rotatePlayer180(player);
-        }
-    }
-
-    private void regrowFlower(Location location) {
-        location.getBlock().setType(Material.OXEYE_DAISY);
-    }
-
-
-
-    private void rotatePlayer180(Player player) {
-        Location playerLocation = player.getLocation();
-        Vector direction = playerLocation.getDirection();
-        direction.multiply(-1);
-        Location newLocation = playerLocation.clone().setDirection(direction);
-        player.teleport(newLocation);
-    }
-
- */
