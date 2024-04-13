@@ -1,7 +1,7 @@
-# My first plugin with many QOL features 
-*well for now it's in early dev phase so it has little to offer :v but you can track my progress*
+# This is kind of an addition to my KiraEssentialz Plugin
+*Basically as the name says it adds some features that cause chaos & confusion on the server*
 
-## [Download KiraEssentialz]() // this may not be working
+## [Download KiraChaos]() // this may not be working
 - To make it work just download the plugin.jar file (download link above) and put it in your ~/plugins folder
 ## Features:
 - Snowballs will explode on impact
